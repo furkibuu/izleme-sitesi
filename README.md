@@ -1,4 +1,4 @@
-<img width="1915" height="981" alt="image" src="https://github.com/user-attachments/assets/f39e1c0d-35b4-49f8-9455-c1d6a066a622" /># Hayatsız İzleme Sitesi - Ön Yüz Tasarımı
+# Hayatsız İzleme Sitesi - Ön Yüz Tasarımı
 
 Bu proje, Netflix benzeri modern bir dizi/film izleme sitesi için geliştirilmiş bir ön yüz (frontend) şablonudur. Proje, karanlık mod temalı, dinamik ve kullanıcı dostu bir arayüz sunmayı amaçlamaktadır. Tamamen saf HTML, CSS ve JavaScript (Vanilla JS) kullanılarak kodlanmıştır.
 
