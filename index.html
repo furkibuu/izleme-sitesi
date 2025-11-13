@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hayatsız İzleme Sitesi, en popüler dizileri ve filmleri ücretsiz olarak izleyebileceğiniz bir platformdur. Geniş içerik yelpazesi ve kullanıcı dostu arayüzü ile eğlencenin tadını çıkarın.">
+    <link rel="stylesheet" href="/Css/style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Hayatsız İzleme Sitesi - Gelişmiş</title>
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container">
+            <div class="logo">
+                <img src="/images/aa549e28d96c044b0e3087babaabe905.jpg" alt="Hayatsız Logo">
+                <a href="#">Hayatsız</a>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#" class="active">Ana Sayfa</a></li>
+                    <li><a href="#">Diziler</a></li>
+                    <li><a href="#">Filmler</a></li>
+                    <li><a href="#">Yeni Eklenenler</a></li>
+                </ul>
+            </nav>
+            <div class="header-right">
+                <div class="search-bar">
+                    <input type="text" id="search-input" placeholder="Dizi, film ara...">
+                    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+                <div class="profile-menu">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1>Popüler Bir Dizi Adı</h1>
+            <p class="hero-description">
+                Burada dizinin veya filmin ilgi çekici kısa bir açıklaması yer alır. İzleyiciyi hemen izlemeye teşvik eder.
+            </p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary"><i class="fa-solid fa-play"></i> Şimdi İzle</button>
+                <button class="btn btn-secondary"><i class="fa-solid fa-circle-info"></i> Daha Fazla Bilgi</button>
+            </div>
+        </div>
+        <div class="hero-fade"></div>
+    </section>
+
+    <main class="main-content">
+        
+        <div id="no-results" class="no-results hidden">
+            <i class="fa-solid fa-face-sad-tear"></i>
+            <p>Aradığınız kriterlere uygun içerik bulunamadı.</p>
+        </div>
+
+        <section class="content-row">
+            <h2>Popüler Diziler</h2>
+
+            <div class="carousel-controls">
+                <button class="carousel-btn prev" aria-label="Önceki"><i class="fa-solid fa-chevron-left"></i></button>
+                <button class="carousel-btn next" aria-label="Sonraki"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+
+            <div class="item-carousel">
+                <div class="item-card">
+                    <img src="https://cdn.europosters.eu/image/1300/101933.jpg" alt="Dizi Posteri 1">
+                    <div class="item-details"><h3>La Casa De Papel</h3><div class="item-meta"><span>2024</span><span><i class="fa-solid fa-star"></i> 8.9</span></div></div>
+                </div>
+                <div class="item-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpzT0KCj3xFEEmbs8fS7andoLlj_eX8Yv3zA&s" alt="Dizi Posteri 2">
+                    <div class="item-details"><h3>Stranger Things</h3><div class="item-meta"><span>2023</span><span><i class="fa-solid fa-star"></i> 9.1</span></div></div>
+                </div>
+                <div class="item-card">
+                    <img src="https://m.media-amazon.com/images/M/MV5BOTQzMzNmMzUtODgwNS00YTdhLTg5N2MtOWU1YTc4YWY3NjRlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Dizi Posteri 3">
+                    <div class="item-details"><h3>The Witcher</h3><div class="item-meta"><span>2024</span><span><i class="fa-solid fa-star"></i> 8.5</span></div></div>
+                </div>
+                <div class="item-card">
+                    <img src="https://m.media-amazon.com/images/I/7118ecsxO3L.jpg" alt="Dizi Posteri 4">
+                    <div class="item-details"><h3>Squid Game</h3><div class="item-meta"><span>2022</span><span><i class="fa-solid fa-star"></i> 8.7</span></div></div>
+                </div>
+                <div class="item-card">
+                    <img src="https://m.media-amazon.com/images/I/A11DlZLBe7S._AC_UF894,1000_QL80_.jpg" alt="Dizi Posteri 5">
+                    <div class="item-details"><h3>Dark</h3><div class="item-meta"><span>2023</span><span><i class="fa-solid fa-star"></i> 9.0</span></div></div>
+                </div>
+                 <div class="item-card">
+                    <img src="https://i.pinimg.com/736x/a2/c2/61/a2c26160fb6ee8dd99eb4365ae6ae0af.jpg" alt="Dizi Posteri 6">
+                    <div class="item-details"><h3>Black Mirror</h3><div class="item-meta"><span>2023</span><span><i class="fa-solid fa-star"></i> 8.8</span></div></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-row">
+            <h2>Yeni Eklenen Diziler</h2>
+            
+            <div class="carousel-controls">
+                <button class="carousel-btn prev" aria-label="Önceki"><i class="fa-solid fa-chevron-left"></i></button>
+                <button class="carousel-btn next" aria-label="Sonraki"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+
+            <div class="item-carousel">
+                <div class="item-card">
+                    <img src="https://images.justwatch.com/poster/336925972/s718/physical-asia.jpg" alt="Film Posteri 1">
+                    <div class="item-details"><h3>Physical Asia</h3><div class="item-meta"><span>2025</span><span><i class="fa-solid fa-star"></i> 7.5</span></div></div>
+                </div>
+              
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer-bottom">
+        <div class="container">
+            <div class="footer-links">
+                <a href="#">Hakkımızda</a>
+                <a href="#">Kullanım Koşulları</a>
+                <a href="#">Gizlilik Politikası</a>
+                <a href="#">Bize Ulaşın</a>
+            </div>
+            <p>&copy; 2025 Hayatsız İzleme Sitesi. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+    <script src="/js/app.js"></script> 
+</body>
+</html>
